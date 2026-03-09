@@ -16,7 +16,7 @@ gem "kamal", "2.7.0", require: false
 gem "thruster", "0.1.15", require: false
 
 group :development, :test do
-  gem "sqlite3", "2.7.2"
+  gem "sqlite3", "2.9.1"
   gem "debug", "1.11.0", platforms: %i[ mri windows ], require: "debug/prelude"
 end
 
