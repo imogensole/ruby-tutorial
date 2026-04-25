@@ -8,8 +8,7 @@ class UsersController < ApplicationController
 
   # GET /users/1 or /users/1.json
   def show
-    micropost = User.micropost
-    micropost
+    @microposts = @user.microposts.order(created_at: :desc)
   end
 
   # GET /users/new

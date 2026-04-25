@@ -2,6 +2,13 @@
 
 <%= render @user %>
 
+<h2>Microposts</h2>
+<div id="microposts">
+  <% @microposts.each do |micropost| %>
+    <%= render micropost %>
+  <% end %>
+</div>
+
 <div>
   <%= link_to "Edit this user", edit_user_path(@user) %> |
   <%= link_to "Back to users", users_path %>
