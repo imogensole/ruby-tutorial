@@ -26,6 +26,11 @@ group :test do
   gem "capybara", "3.40.0"
   gem "selenium-webdriver", "4.9.0"
   gem "webdrivers", "5.3.1"
+  gem "rails-controller-testing", "1.0.5"
+  gem "minitest", "5.15.0"
+  gem "minitest-reporters", "1.5.0"
+  gem "guard", "2.18.0"
+  gem "guard-minitest", "2.4.6"
 end
 
 group :production do
